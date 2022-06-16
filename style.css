@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Luckiest+Guy&family=Open+Sans:wght@300;500&family=Roboto:wght@500&display=swap');
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+@import url('components/card.css');
+@import url('components/button.css');
+@import url('components/nav.css');
+
+body {
+  background-color: rgb(230,230,230);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(60,60,60);
+  font-weight: light;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 32px;
+  color: #1B2430;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  color: #51557E;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  color: #816797;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150,150,150);
+}
+
+a:hover {
+  color: rgb(50,50,50)
+}
+
+#photo {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+.red-bold {
+  color: red;
+  font-weight: bolder;
+}
+
+.left-aligned {
+  text-align: left;
+  margin: 0 56px 0 32px;
+  line-height: 25px;
+}
+
+.font-bigger {
+  font-size: 40px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,26 @@
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 3px 16px rgb(0 0 0 / 40%);
+  width: 60vw;
+  margin: 24px auto;
+  padding: 16px;
+}
+
+.card p {
+  margin: 24px 32px;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 80vw;
+  }
+
+  .card p {
+    margin: 24px 8px;
+  }
+
+  .card li {
+    margin: 5px 16px 0 8px;
+  }
+}
